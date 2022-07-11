@@ -1,0 +1,26 @@
+name: TicTacToe_NRP
+version: '${project.version}'
+main: me.nrp.tictactoe.tictactoe_nrp.TicTacToe_NRP
+api-version: 1.18
+commands:
+  challenge:
+    description: Invite a player to play TicTocToe together
+    usage: /<command>
+  accept:
+    description: accept game invite
+    usage: /<command>
+  deny:
+    description: deny game invite
+    usage: /<command>
+  put:
+    description: put
+    usage: /<command>
+  save:
+    description: saves game
+    usage: /<command>
+  load:
+    description: load game
+    usage: /<command>
+  tictactoehelp:
+    description: see how to play
+    usage: /<command>
